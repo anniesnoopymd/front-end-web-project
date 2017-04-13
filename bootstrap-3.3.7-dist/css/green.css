@@ -360,54 +360,122 @@ section#section_about .intro p {
   padding: 20px;
 }
 section#section_future {
-  height: 500px;
+  height: 550px;
   width: 1500px;
   background-color: #3BA99C;
-  background-attachment: fixed;
-  background-position: center center;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-section#section_future .line {
-  width: 1px;
-  height: 100%;
-  float: left;
-  border-color: #DFE4E3;
-  margin-top: 100px;
+section#section_future .col-sm-3 {
+  margin-top: -20px;
+  padding-top: -130px;
+  width: 280px;
+  height: 250px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition-duration: 0.7s;
+}
+section#section_future .info:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  color: #3BA99C;
+  border-radius: 5px;
+}
+section#section_future .about:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  border-radius: 5px;
+}
+section#section_future .service:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  border-radius: 5px;
+}
+section#section_future .recruit:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  border-radius: 5px;
+}
+section#section_future .map:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  border-radius: 5px;
+}
+section#section_future .marker:hover {
+  padding-top: 0px;
+  width: 280px;
+  height: 250px;
+  background-color: #BABBBB;
+  border-radius: 5px;
 }
 section#section_future h4 {
   margin-top: 15px;
+  margin-left: 85px;
   color: white;
-  text-align: center;
+  font-size: 20px;
+  letter-spacing: 3px;
 }
 section#section_future h5 {
-  margin-top: 20px;
-  color: #DFE4E3;
+  margin-top: 13px;
+  margin-left: 10px;
   text-align: center;
+  color: #fff;
   font-family: Monaco;
   letter-spacing: 3px;
-  margin-top: 5px;
+  font-size: 20px;
 }
 section#section_future i {
-  font-size: 40px;
+  font-size: 60px;
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-top: -130px;
   position: relative;
   left: 50%;
   top: 50%;
-  transform: translateX(-50%), translateY(-50%);
-  padding-right: 30px;
+  margin-left: -30px;
+}
+section#section_future .fa.fa-search {
+  font-size: 23px;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+section#section_future hr {
+  width: 90%;
+  color: #C9CBCB;
+}
+section#section_future input {
+  background-color: white;
+  border-radius: 3px;
+  height: 35px;
+  width: 200px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  text-align: center;
+  font-family: Time New Roman;
 }
 
 footer.jum {
   text-align: center;
-  background-color: #fff;
-  height: 400px;
-  weight: 1500px;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.9;
+  background-color: #DFE4E3;
+  height: 500px;
+  width: 1500px;
 }
 footer.jum .container {
-  margin-left: 220px;
+  margin: 0 auto;
 }
 footer.jum p {
   font-size: 30px;
