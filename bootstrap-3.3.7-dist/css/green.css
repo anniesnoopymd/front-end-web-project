@@ -2,36 +2,6 @@
 * {
   font-family: "Lemonada", 微軟正黑體;
 }
-* nav {
-  display: none;
-}
-* header {
-  display: none;
-}
-* section {
-  display: none;
-}
-* section#section_one {
-  display: none;
-}
-* section#section_new {
-  display: none;
-}
-* section#section_ask {
-  display: none;
-}
-* section#section_about {
-  display: none;
-}
-* section#section_future {
-  display: block;
-}
-* footer {
-  display: block;
-}
-* section#section_story {
-  display: none;
-}
 
 body {
   height: 1000px;
@@ -82,6 +52,7 @@ section#section_one {
   height: 350px;
   width: 1500px;
   color: #495867;
+  margin-top: 0px;
 }
 section#section_one .col-sm-2 {
   padding: 2px;
@@ -168,7 +139,7 @@ section#section_new .left {
   height: 200px;
   margin-left: -30px;
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 80px;
   cursor: pointer;
   opacity: 0.7;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
@@ -262,7 +233,7 @@ section#section_ask .left {
   height: 200px;
   margin-left: -30px;
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 70px;
   cursor: pointer;
   opacity: 0.7;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
@@ -278,7 +249,6 @@ section#section_ask .left h2 {
   margin: 0px;
   padding-left: 40px;
   padding-top: 10px;
-  text-align: center center;
 }
 section#section_ask .left:hover {
   width: 200px;
@@ -294,16 +264,18 @@ section#section_ask .left:hover {
 section#section_ask img {
   width: 300px;
   height: 200px;
-  margin-left: 200px;
+  margin-left: 300px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: -170px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 2px 9px #696969;
 }
-section#section_ask p {
+section#section_ask .word {
   font-size: 17px;
   font-weight: light;
   letter-spacing: 3px;
-  marign-left: 130px;
-  margin-bottom: 140px;
+  margin-left: 100px;
+  margin-top: 140px;
   color: #fff;
 }
 section#section_ask .introduce {
@@ -450,6 +422,13 @@ section#section_future .fa.fa-search {
   font-size: 23px;
   margin-top: 15px;
   margin-left: 80px;
+}
+section#section_future .fa.fa-map-o {
+  margin-top: 75px;
+}
+section#section_future .fa.fa-map-marker {
+  margin-top: 75px;
+  margin-left: -20px;
 }
 section#section_future hr {
   width: 90%;
