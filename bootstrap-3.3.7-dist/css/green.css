@@ -2,6 +2,36 @@
 * {
   font-family: "Lemonada", 微軟正黑體;
 }
+* nav {
+  display: none;
+}
+* header {
+  display: none;
+}
+* section {
+  display: none;
+}
+* section#section_one {
+  display: none;
+}
+* section#section_new {
+  display: none;
+}
+* section#section_ask {
+  display: none;
+}
+* section#section_about {
+  display: none;
+}
+* section#section_future {
+  display: block;
+}
+* footer {
+  display: block;
+}
+* section#section_story {
+  display: none;
+}
 
 body {
   height: 1000px;
@@ -45,11 +75,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 section#section_one {
-  background-color: #2B8A9A;
+  background-color: #4AA092;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
-  height: 400px;
+  height: 350px;
   width: 1500px;
   color: #495867;
 }
@@ -122,7 +152,7 @@ section#section_one .introduce {
   font-size: 18px;
   letter-spacing: 3px;
   text-align: center;
-  color: #495867;
+  color: #fff;
   font-weight: light;
   cursor: pointer;
 }
@@ -136,7 +166,7 @@ section#section_new {
 section#section_new .left {
   width: 200px;
   height: 200px;
-  margin-right: 30px;
+  margin-left: -30px;
   background-color: #fff;
   margin-top: 40px;
   cursor: pointer;
@@ -148,13 +178,13 @@ section#section_new .left i {
   font-size: 70px;
   position: center center;
   padding-top: 30px;
-  margin-left: 55px;
+  margin-left: 70px;
 }
 section#section_new .left h2 {
-  margin: 0px;
-  padding-left: 40px;
-  padding-top: 10px;
-  text-align: center center;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 40px;
+  padding: 0px 20px;
 }
 section#section_new .left:hover {
   width: 200px;
@@ -211,6 +241,15 @@ section#section_new .btn {
   letter-spacing: 3px;
   text-align: center center;
 }
+section#section_new .introduce {
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: light;
+  cursor: pointer;
+}
 section#section_ask {
   background-color: #84DCC6;
   background-attachment: fixed;
@@ -221,7 +260,7 @@ section#section_ask {
 section#section_ask .left {
   width: 200px;
   height: 200px;
-  margin-right: -40px;
+  margin-left: -30px;
   background-color: #fff;
   margin-top: 40px;
   cursor: pointer;
@@ -263,8 +302,15 @@ section#section_ask p {
   font-size: 17px;
   font-weight: light;
   letter-spacing: 3px;
-  marign-left: 0px;
-  margin-bottom: 120px;
+  marign-left: 130px;
+  margin-bottom: 140px;
+  color: #fff;
+}
+section#section_ask .introduce {
+  font-size: 19px;
+  letter-spacing: 3px;
+  marign-left: -130px;
+  margin-bottom: 40px;
   color: #fff;
 }
 section#section_ask h2 {
@@ -313,46 +359,86 @@ section#section_about .intro p {
   margin-top: -30px;
   padding: 20px;
 }
-
-footer.jumbotron {
+section#section_future {
+  height: 500px;
+  width: 1500px;
+  background-color: #3BA99C;
+  background-attachment: fixed;
+  background-position: center center;
+}
+section#section_future .line {
+  width: 1px;
+  height: 100%;
+  float: left;
+  border-color: #DFE4E3;
+  margin-top: 100px;
+}
+section#section_future h4 {
+  margin-top: 15px;
+  color: white;
   text-align: center;
-  background-image: url(https://images.pexels.com/photos/2459/stairs-home-loft-lifestyle.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
-  height: 600px;
+}
+section#section_future h5 {
+  margin-top: 20px;
+  color: #DFE4E3;
+  text-align: center;
+  font-family: Monaco;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+section#section_future i {
+  font-size: 40px;
+  color: white;
+  margin-top: 100px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%), translateY(-50%);
+  padding-right: 30px;
+}
+
+footer.jum {
+  text-align: center;
+  background-color: #fff;
+  height: 400px;
   weight: 1500px;
   background-size: cover;
   background-attachment: fixed;
   opacity: 0.9;
 }
-footer.jumbotron .container {
+footer.jum .container {
   margin-left: 220px;
 }
-footer.jumbotron p {
+footer.jum p {
   font-size: 30px;
   letter-spacing: 7px;
   font-weight: bold;
   color: #21897E;
   text-shadow: 1px 1px 1px #ffffff;
+  margin-top: 170px;
 }
-footer.jumbotron input {
+footer.jum input {
   background-color: white;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: Time New Roman;
 }
-footer.jumbotron hr {
+footer.jum hr {
   max-width: 50px;
   border: solid 2px #3BA99C;
   border-radius: 2px;
 }
-footer.jumbotron button {
+footer.jum button {
   transition-duration: 0.5s;
+  font-family: Time New Roman;
 }
-footer.jumbotron button:hover {
+footer.jum button:hover {
   background-color: #3BA99C;
   color: #fff;
 }
-footer.jumbotron .col-sm-3 {
+footer.jum .col-sm-3 {
   font-size: 15px;
   color: white;
 }
