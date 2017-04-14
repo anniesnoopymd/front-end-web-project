@@ -41,7 +41,7 @@ header.jumbotron {
   text-align: center center;
   padding: 38px;
 }
-.circle.info2 {
+.circle.info3{
   height: 150px;
   width: 150px;
   border: 3px solid #00AAAA;
@@ -52,12 +52,10 @@ header.jumbotron {
   cursor: pointer;
   padding: -10px;
   background-color: #00AAAA;
-  transition-duration: 0.3ss;
+  transition-duration: 0.3s;
   color: #fff;
 }
-a:link {
-    text-decoration: none;
-}
+
 section {
   text-align: center;
   padding: 80px 0px;
@@ -70,12 +68,12 @@ section .section-subheading {
   font-size: 16px;
 }
 
-.intro .col-md-6 {
+.intro .col-md-4 {
   background-color: #fff;
   margin-top: 20px;
   transition-duration: 0.7s;
 }
-.intro .col-md-6:hover {
+.intro .col-md-4:hover {
   background-color: #15E6CD;
 }
 
