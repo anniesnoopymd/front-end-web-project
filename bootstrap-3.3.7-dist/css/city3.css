@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .jumbotron .cat {
   margin-left: -1000px;
+  margin-top: 20px;
   font-weight: light;
   font-size: 17px;
   height: 10px;
