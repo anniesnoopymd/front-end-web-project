@@ -37,8 +37,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .list-group {
   width: 200px;
-  margin-left: 50px;
+  margin-left: -300px;
+  margin-top: 0px;
   font-size: 15px;
+}
+.list-group h3 {
+  marign-left: -300px;
 }
 
 .justify-content-between {
@@ -87,18 +91,18 @@ section#section_one:hover {
 }
 section#section_one .col-sm-7 h3 {
   color: #3E8989;
-  padding-left: -50px;
+  padding-left: 0px;
   padding-top: 20px;
-  margin-left: 150px;
+  margin-left: -30px;
 }
 section#section_one .col-sm-7 h5 {
   font-size: 18px;
-  padding-left: 150px;
+  padding-left: -30px;
   line-height: 30px;
 }
 section#section_one .col-sm-7 p {
   padding-left: 40px;
-  margin-left: 100px;
+  margin-left: -30px;
   margin-right: 0px;
 }
 section#section_one .col-sm-7 .btn {
@@ -120,7 +124,15 @@ section#section_one .introduce {
 section#section_one .col-sm-5 img {
   width: 300px;
   height: 200px;
-  margin-left: 90px;
+  margin-left: 20px;
+  margin-top: 35px;
+  box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+section#section_one .col-sm-5 img:hover {
+  width: 320px;
+  height: 220px;
+  margin-left: 20px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -189,6 +201,14 @@ section#section_two .col-sm-5 img {
   margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+section#section_two .col-sm-5 img:hover {
+  width: 320px;
+  height: 220px;
+  margin-left: 20px;
+  margin-top: 35px;
+  box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
 section#section_two .col-sm-5 h5 {
   margin-left: 0px;
@@ -253,6 +273,14 @@ section#section_three .col-sm-5 img {
   width: 300px;
   height: 200px;
   margin-left: 90px;
+  margin-top: 35px;
+  box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+section#section_three .col-sm-5 img:hover {
+  width: 320px;
+  height: 220px;
+  margin-left: 20px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -321,6 +349,14 @@ section#section_four .col-sm-5 img {
   margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+section#section_four .col-sm-5 img:hover {
+  width: 320px;
+  height: 220px;
+  margin-left: 20px;
+  margin-top: 35px;
+  box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
 section#section_four .col-sm-5 h5 {
   margin-left: 0px;
@@ -385,6 +421,14 @@ section#section_five .col-sm-5 img {
   width: 300px;
   height: 200px;
   margin-left: 90px;
+  margin-top: 35px;
+  box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.5s;
+}
+section#section_five .col-sm-5 img:hover {
+  width: 320px;
+  height: 220px;
+  margin-left: 20px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
