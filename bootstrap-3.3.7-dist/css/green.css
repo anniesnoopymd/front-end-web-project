@@ -86,7 +86,7 @@ section#section_one .left:hover {
   width: 200px;
   height: 200px;
   margin-left: -30px;
-  background-color: #fff;
+  background-color: #CACCCC;
   margin-top: 40px;
   cursor: pointer;
   opacity: 0.7;
@@ -161,8 +161,8 @@ section#section_new .left:hover {
   width: 200px;
   height: 200px;
   margin-right: -40px;
-  background-color: #fff;
-  margin-top: 40px;
+  background-color: #CACCCC;
+  margin-top: 80px;
   cursor: pointer;
   opacity: 0.7;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
@@ -233,7 +233,7 @@ section#section_ask .left {
   height: 200px;
   margin-left: -30px;
   background-color: #fff;
-  margin-top: 70px;
+  margin-top: 80px;
   cursor: pointer;
   opacity: 0.7;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
@@ -254,8 +254,8 @@ section#section_ask .left:hover {
   width: 200px;
   height: 200px;
   margin-right: -40px;
-  background-color: #fff;
-  margin-top: 40px;
+  background-color: #CACCCC;
+  margin-top: 80px;
   cursor: pointer;
   opacity: 0.7;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
@@ -266,7 +266,7 @@ section#section_ask img {
   height: 200px;
   margin-left: 300px;
   cursor: pointer;
-  margin-top: -170px;
+  margin-top: -180px;
   border-radius: 5px;
   -webkit-box-shadow: 4px 2px 9px #696969;
 }

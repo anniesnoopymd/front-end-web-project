@@ -206,7 +206,7 @@ section#section_two .col-sm-5 img {
 section#section_two .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -280,7 +280,7 @@ section#section_three .col-sm-5 img {
 section#section_three .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -354,7 +354,7 @@ section#section_four .col-sm-5 img {
 section#section_four .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -428,7 +428,7 @@ section#section_five .col-sm-5 img {
 section#section_five .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -439,20 +439,30 @@ section#section_five .col-sm-5 h5 {
 .page {
   margin-left: 350px;
 }
-.page .button {
+
+.button1 {
+  background-color: #CACCCC;
+  color: #3BA99C;
+  margin-top: 30px;
+  margin-bottom: 160px;
+  font-size: 15px;
+
+}
+.button2, .button3, .button4, .button5  {
   background-color: #3BA99C;
   color: #fff;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 160px;
   font-size: 15px;
 }
 .page .button:hover {
   background-color: #9B9E9D;
   color: #fff;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 160px;
   font-size: 15px;
 }
+
 
 footer.jumbotron {
   text-align: center;
