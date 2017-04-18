@@ -438,18 +438,14 @@ section#section_five .col-sm-5 h5 {
 
 .page {
   margin-left: 350px;
-  /*padding-bottom: 50px;*/
-
-}
-.btn{
-  border: solid 2px #3BA99C;
+  padding-bottom: 50px;
 }
 
 .button1 {
-  background-color: #fff;
+  background-color: #CACCCC;
   color: #3BA99C;
   margin-top: 30px;
-  padding-bottom: 50px;
+  margin-bottom: 160px;
   font-size: 15px;
 
 }
@@ -457,17 +453,16 @@ section#section_five .col-sm-5 h5 {
   background-color: #3BA99C;
   color: #fff;
   margin-top: 30px;
-
+  margin-bottom: 160px;
   font-size: 15px;
 }
-.button2:hover, .button3:hover, .button4:hover, .button5:hover  {
+.page .button:hover {
   background-color: #9B9E9D;
   color: #fff;
   margin-top: 30px;
-
+  margin-bottom: 160px;
   font-size: 15px;
 }
-
 
 
 footer.jumbotron {
