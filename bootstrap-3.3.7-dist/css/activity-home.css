@@ -369,10 +369,17 @@ section#section_five .col-sm-5 h5 {
 }
 
 .page {
-  margin-left: -100px;
+  margin-left: 350px;
 }
 .page .button {
   background-color: #3BA99C;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.page .button:hover {
+  background-color: #9B9E9D;
   color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
