@@ -35,6 +35,30 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-left: 200px;
 }
 
+.list-group {
+  width: 200px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.justify-content-between {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.justify-content-between:hover {
+  background-color: #9B9E9D;
+  color: #fff;
+}
+.justify-content-between:hover .badge-default.badge-pill {
+  background-color: #3BA99C;
+  color: #fff;
+}
+
+h3 {
+  margin-left: 100px;
+  color: #3BA99C;
+}
+
 section#section_one {
   background-color: #A3E2CD;
   background-attachment: fixed;
