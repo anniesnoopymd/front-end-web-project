@@ -206,7 +206,7 @@ section#section_two .col-sm-5 img {
 section#section_two .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -281,7 +281,7 @@ section#section_three .col-sm-5 img {
 section#section_three .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -355,7 +355,7 @@ section#section_four .col-sm-5 img {
 section#section_four .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
@@ -429,7 +429,7 @@ section#section_five .col-sm-5 img {
 section#section_five .col-sm-5 img:hover {
   width: 320px;
   height: 220px;
-  margin-left: 20px;
+  margin-left: 90px;
   margin-top: 35px;
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
 }
