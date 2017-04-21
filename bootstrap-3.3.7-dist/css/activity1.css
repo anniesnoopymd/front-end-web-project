@@ -68,7 +68,7 @@ section#section_one {
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
-  height: 1400px;
+  height: 1700px;
   width: 900px;
   margin-left: 350px;
   margin-right: 150px;
@@ -105,8 +105,8 @@ section#section_one .col-sm-10 p.two {
   font-size: 20px;
 }
 section#section_one .col-sm-10 img {
-  width: 650px;
-  height: 600px;
+  width: 350px;
+  height: 300px;
 }
 section#section_one .col-sm-10 .btn {
   background-color: #3BA99C;
