@@ -78,7 +78,7 @@ section#section_one {
   transition-duration: 0.5s;
 }
 section#section_one:hover {
-  background-color: #BDC2C0;
+  background-color: #7ACBA5;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
@@ -153,7 +153,7 @@ section#section_two {
   transition-duration: 0.5s;
 }
 section#section_two:hover {
-  background-color: #BDC2C0;
+  background-color: #7ACBA5;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
@@ -227,7 +227,7 @@ section#section_three {
   transition-duration: 0.5s;
 }
 section#section_three:hover {
-  background-color: #BDC2C0;
+  background-color: #7ACBA5;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
@@ -301,7 +301,7 @@ section#section_four {
   transition-duration: 0.5s;
 }
 section#section_four:hover {
-  background-color: #BDC2C0;
+  background-color: #7ACBA5;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
@@ -375,7 +375,7 @@ section#section_five {
   transition-duration: 0.5s;
 }
 section#section_five:hover {
-  background-color: #BDC2C0;
+  background-color: #7ACBA5;
   background-attachment: fixed;
   filter: opacity(0.8);
   box-shadow: 14px 4px 24px rgba(0, 0, 0, 0.2);
