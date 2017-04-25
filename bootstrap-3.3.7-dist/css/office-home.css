@@ -9,14 +9,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 header.jumbotron {
   text-align: center;
-  background-image: url(https://images.pexels.com/photos/210620/pexels-photo-210620.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
   background-size: cover;
   background-position: center 130%;
   background-attachment: fixed;
   padding: 300px;
   height: 700px;
-  margin-top: -180px;
-  color: #757780;
+  margin-top: -120px;
+  margin-left: -50px;
+  color: #fff;
 }
 
 .circle {
