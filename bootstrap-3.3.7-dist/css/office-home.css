@@ -6,7 +6,9 @@
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
 }
-
+a{
+  text-decoration: none;
+}
 header.jumbotron {
   text-align: center;
   background-image: url(https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
@@ -31,16 +33,27 @@ header.jumbotron {
   cursor: pointer;
   padding: -10px;
   background-color: #fff;
-  transition-duration: 0.3ss;
+  transition-duration: 0.3s;
+  text-decoration: none;
 }
 .circle:hover {
   background-color: #15E6CD;
   color: white;
+  text-decoration: none;
+}
+.circle a:hover{
+  text-decoration: none;
 }
 .circle h6 {
   font-size: 17px;
   text-align: center center;
   padding: 38px;
+}
+.circle h6 a:hover {
+  font-size: 17px;
+  text-align: center center;
+  padding: 38px;
+  text-decoration: none;
 }
 .circle.info3{
   height: 150px;
@@ -55,6 +68,11 @@ header.jumbotron {
   background-color: #00AAAA;
   transition-duration: 0.3s;
   color: #fff;
+}
+.info1 a:hover{
+  background-color: #15E6CD;
+  color: white;
+  text-decoration: none;
 }
 
 section {
