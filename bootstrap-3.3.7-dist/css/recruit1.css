@@ -10,6 +10,9 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: bold;
 }
+a{
+  text-decoration: none;
+}
 
 .jumbotron {
   text-align: center;
@@ -56,6 +59,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .justify-content-between:hover .badge-default.badge-pill {
   background-color: #3BA99C;
   color: #fff;
+}
+.justify-content-between a{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  color: #5B5956;
+  text-decoration: none;
+}
+
+.justify-content-between a:hover{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  color: #5B5956;
+  text-decoration: none;
 }
 
 h3 {
