@@ -71,7 +71,7 @@ section#section_one .left {
   margin-top: 40px;
   cursor: pointer;
   opacity: 0.7;
-  box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
+  /*box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);*/
   transition-duration: 1s;
 }
 section#section_one .left i {
