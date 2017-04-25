@@ -70,7 +70,7 @@ section#section_one .left {
   background-color: #fff;
   margin-top: 40px;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   /*box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);*/
   transition-duration: 1s;
 }
@@ -145,7 +145,7 @@ section#section_new .left {
   background-color: #fff;
   margin-top: 80px;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
   transition-duration: 1s;
 }
@@ -239,7 +239,7 @@ section#section_ask .left {
   background-color: #fff;
   margin-top: 80px;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   box-shadow: 4px 4px 15px rgba(87, 100, 144, 0.5);
   transition-duration: 1s;
 }
@@ -306,10 +306,10 @@ section#section_about {
 section#section_about img {
   width: 130%;
 }
-section#section_about .img_wrap {
+/*section#section_about .img_wrap {
   overflow: hidden;
   height: 130px;
-}
+}*/
 section#section_about h2 {
   margin-top: 15px;
   color: #color_green;
@@ -422,7 +422,9 @@ section#section_future i {
   left: 50%;
   top: 50%;
   margin-left: -30px;
+  transition-duration: 0.5s;
 }
+
 section#section_future .fa.fa-search {
   font-size: 23px;
   margin-top: 15px;
