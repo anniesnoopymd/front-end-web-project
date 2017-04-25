@@ -41,13 +41,17 @@ header.jumbotron {
   color: white;
   text-decoration: none;
 }
-.circle a:hover{
+.info1 a{
+  text-decoration: none;
+}
+.info1 a:hover{
   text-decoration: none;
 }
 .circle h6 {
   font-size: 17px;
   text-align: center center;
   padding: 38px;
+  text-decoration: none;
 }
 .circle h6 a:hover {
   font-size: 17px;
@@ -68,8 +72,9 @@ header.jumbotron {
   background-color: #00AAAA;
   transition-duration: 0.3s;
   color: #fff;
+  text-decoration: none;
 }
-.info1 a:hover{
+.info.info1 a:hover{
   background-color: #15E6CD;
   color: white;
   text-decoration: none;
