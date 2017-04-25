@@ -99,11 +99,13 @@ section#section_one .col-sm-7 h5 {
   font-size: 18px;
   padding-left: -30px;
   line-height: 30px;
+  color: #6C716F;
 }
 section#section_one .col-sm-7 p {
   padding-left: 40px;
   margin-left: -30px;
   margin-right: 0px;
+  color: #6C716F;
 }
 section#section_one .col-sm-7 .btn {
   background-color: #3BA99C;
@@ -174,11 +176,13 @@ section#section_two .col-sm-7 h5 {
   font-size: 18px;
   padding-left: 150px;
   line-height: 30px;
+  color: #6C716F;
 }
 section#section_two .col-sm-7 p {
   padding-left: 40px;
   margin-left: 100px;
   margin-right: 0px;
+  color: #6C716F;
 }
 section#section_two .col-sm-7 .btn {
   background-color: #3BA99C;
@@ -248,11 +252,13 @@ section#section_three .col-sm-7 h5 {
   font-size: 18px;
   padding-left: 150px;
   line-height: 30px;
+  color: #6C716F;
 }
 section#section_three .col-sm-7 p {
   padding-left: 40px;
   margin-left: 100px;
   margin-right: 0px;
+  color: #6C716F;
 }
 section#section_three .col-sm-7 .btn {
   background-color: #3BA99C;
@@ -322,11 +328,13 @@ section#section_four .col-sm-7 h5 {
   font-size: 18px;
   padding-left: 150px;
   line-height: 30px;
+  color: #6C716F;
 }
 section#section_four .col-sm-7 p {
   padding-left: 40px;
   margin-left: 100px;
   margin-right: 0px;
+  color: #6C716F;
 }
 section#section_four .col-sm-7 .btn {
   background-color: #3BA99C;
@@ -396,11 +404,13 @@ section#section_five .col-sm-7 h5 {
   font-size: 18px;
   padding-left: 150px;
   line-height: 30px;
+  color: #6C716F;
 }
 section#section_five .col-sm-7 p {
   padding-left: 40px;
   margin-left: 100px;
   margin-right: 0px;
+  color: #6C716F;
 }
 section#section_five .col-sm-7 .btn {
   background-color: #3BA99C;
