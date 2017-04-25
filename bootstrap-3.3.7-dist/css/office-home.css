@@ -39,12 +39,12 @@ header.jumbotron {
 .circle:hover {
   background-color: #15E6CD;
   color: white;
+
+}
+.circle.info1 a{
   text-decoration: none;
 }
-.info1 a{
-  text-decoration: none;
-}
-.info1 a:hover{
+.circle.info1 a:hover{
   text-decoration: none;
 }
 .circle h6 {
